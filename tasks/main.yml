@@ -1,11 +1,17 @@
 ---
 
 - name: Install
-  include: install.yml
+  import_tasks: install.yml
   tags:
     - install
 
 - name: Configure
-  include: config.yml
+  import_tasks: config.yml
   tags:
     - configure
+
+- name: Service
+  import_tasks: service.yml
+  tags:
+    - service
+
