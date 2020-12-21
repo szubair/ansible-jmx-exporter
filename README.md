@@ -1,6 +1,4 @@
-alexdzyoba.jmx-exporter
-=======================
-
+---
 This ansible role installs a Prometheus JMX exporter **java agent** in a debian
 environment.
 
@@ -34,13 +32,3 @@ jmx_exporter_conf_path: /etc/jmx_exporter
 # Port & path
 jmx_exporter_port: 7071
 ```
-
-License
--------
-
-MIT
-
-Author Information
-------------------
-
-Alex Dzyoba
